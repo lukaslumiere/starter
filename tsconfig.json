@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",               // Diretório de saída para os arquivos compilados
+    "rootDir": "./src",               // Diretório de origem dos arquivos
+    "declaration": true,              // Habilita a geração de arquivos .d.ts
+    "declarationDir": "./types",      // Diretório para os arquivos .d.ts
+    "esModuleInterop": true,          // Interoperabilidade de módulos
+    "strict": true,                   // Ativa a verificação de tipo estrita
+    "skipLibCheck": true,             // Ignora a verificação de bibliotecas
+    "target": "ES6",                  // Compila para ES6
+    "module": "ESNext",               // Usa ESNext para módulos
+    "jsx": "react"                    // Habilita JSX para React
+  },
+  "include": [
+    "src/**/*"                        // Inclui todos os arquivos dentro de src
+  ]
+}
