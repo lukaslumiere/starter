@@ -7,4 +7,4 @@ A collection of reusable components for React projects.
 Install the package via npm:
 
 ```bash
-npm install react-starter-components
+npm i @lukaslumiere/starter

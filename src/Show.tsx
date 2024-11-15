@@ -10,5 +10,3 @@ export interface Props {
 export const Show: FC<Props> = ({ when, children, fallback, whenNot }) => {
   return <>{when ? children : whenNot || fallback}</>
 }
-
-export default Show
